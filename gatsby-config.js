@@ -18,22 +18,38 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `About`,
-            slug: `/about`,
+            title: `Emergency Medicine`,
+            slug: `/tags/EM`,
           },
           {
             title: `Cooking`,
-            slug: `/tags/cooking`
+            slug: `/tags/cooking`,
           },
           {
             title: `Woodworking`,
-            slug: `/tags/woodworking`
+            slug: `/tags/woodworking`,
+          },
+          {
+            title: `Gardening`,
+            slug: `/tags/gardening`,
+          },
+          {
+            title: `WebDev`,
+            slug: `/tags/web development`,
+          },
+          {
+            title: `Music`,
+            slug: `/tags/music`,
+          },
+          {
+            title: `About`,
+            slug: `/about`,
           },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/VPARTHASMD`,
+            url: `https://twitter.com/VParthaMD`,
           },
           {
             name: `Instagram`,
