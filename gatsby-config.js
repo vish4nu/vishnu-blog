@@ -5,6 +5,8 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Vishnu`,
+
   },
   plugins: [
     {
@@ -19,15 +21,23 @@ module.exports = {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `Cooking`,
+            slug: `/tags/cooking`
+          },
+          {
+            title: `Woodworking`,
+            slug: `/tags/woodworking`
+          },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/VPARTHASMD`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/vish4nu/`,
           },
         ],
       },
