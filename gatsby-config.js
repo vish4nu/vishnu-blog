@@ -18,20 +18,8 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `Emergency Medicine`,
-            slug: `/tags/EM`,
-          },
-          {
             title: `Cooking`,
             slug: `/tags/cooking`,
-          },
-          {
-            title: `Woodworking`,
-            slug: `/tags/woodworking`,
-          },
-          {
-            title: `Gardening`,
-            slug: `/tags/gardening`,
           },
           {
             title: `WebDev`,
