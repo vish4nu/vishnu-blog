@@ -18,12 +18,16 @@ module.exports = {
             slug: `/blog`,
           },
           {
+            title: `EM`,
+            slug: `/tags/em`,
+          },
+          {
             title: `Cooking`,
             slug: `/tags/cooking`,
           },
           {
             title: `WebDev`,
-            slug: `/tags/web development`,
+            slug: `/tags/webdev`,
           },
           {
             title: `Music`,
