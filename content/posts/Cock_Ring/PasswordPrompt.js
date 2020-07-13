@@ -22,7 +22,7 @@ class PasswordPrompt extends Component {
             this.setState({
                 authenticated: true
             })
-            localStorage.setItem("authenticated", true)
+            window.localStorage.setItem("authenticated", true)
             window.location.reload()
         } else {
             window.alert("Wrong Password");
