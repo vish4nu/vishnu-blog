@@ -1,0 +1,20 @@
+---
+title: Cock Ring 
+date: 2020-05-17
+description:  Cock Ring ER Story 
+tags:
+  - em
+banner: ./defence-against-the-dark-arts.jpg
+---
+
+import Post from '../../Password_Posts/Cockring_pw/Cockring_pw.mdx'
+import PasswordPrompt from './PasswordPrompt.js'
+
+
+export const isAuthenticated = localStorage.getItem("authenticated")
+
+This content is password protected.
+
+<div>
+ { isAuthenticated ? <Post /> : <PasswordPrompt /> }
+</div>

@@ -1,0 +1,20 @@
+---
+title: Collin Becker
+date: 2020-04-27
+description:  Collin Becker Story 
+tags:
+  - em
+banner: ./defence-against-the-dark-arts.jpg
+---
+
+import CollinPost from '../../Password_Posts/Collin_Becker/index.mdx'
+import PasswordPrompt from '../Cock_Ring/PasswordPrompt.js'
+
+
+export const isAuthenticated = localStorage.getItem("authenticated")
+
+This content is password protected.
+
+<div>
+ { isAuthenticated ? <CollinPost /> : <PasswordPrompt /> }
+</div>
