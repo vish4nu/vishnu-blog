@@ -26,8 +26,8 @@ module.exports = {
             slug: `/tags/cooking`,
           },
           {
-            title: `WebDev`,
-            slug: `/tags/webdev`,
+            title: `Misc`,
+            slug: `/tags/misc`,
           },
           {
             title: `Music`,
