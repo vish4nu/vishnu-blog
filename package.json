@@ -25,7 +25,7 @@
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-sitemap": "^2.2.19",
     "gatsby-remark-embed-spotify": "^2.1.1",
-    "gatsby-transformer-remark": "^2.7.3",
+    "gatsby-transformer-remark": "^5.25.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
